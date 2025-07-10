@@ -16,6 +16,8 @@ repos:
       - id: isort
         args: ["--profile", "black"]
 
+
+# 배포시만 활성화. 커밋시에는 주석처리
   # - repo: https://github.com/pycqa/flake8
   #   rev: 7.0.0
   #   hooks:
